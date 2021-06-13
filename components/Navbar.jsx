@@ -12,10 +12,10 @@ const Navbar = () => {
                     <div className={styles.burgerMenu}><FaBars/></div>
                     <div className={styles.navMenu}>
                         <div className={styles.navItem}>
-                            <Link href='/'><a className={styles.navLinks}>Home</a></Link>
+                            <Link href='/#home'><a className={styles.navLinks}>Home</a></Link>
                         </div>
                         <div className={styles.navItem}>
-                            <Link href='/'><a className={styles.navLinks}>About Me</a></Link>
+                            <Link href='/#about'><a className={styles.navLinks}>About Me</a></Link>
                         </div>
                         <div className={styles.navItem}>
                             <Link href='/'><a className={styles.navLinks}>Skills</a></Link>
