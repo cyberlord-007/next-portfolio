@@ -19,7 +19,7 @@ const Skills = () => {
                         <div className={styles.skillsGrid}>
                             <div className={styles.gridish}>
                                 <div className={styles.skillIcons}>
-                                    <FaReact color='#5ED3F3' size='100px'/>
+                                    <FaReact color='#5ED3F3' size='100px'/> 
                                 </div>
                                 <div className={styles.skillIcons}>
                                     <FaHtml5 color='#DD4B25' size='100px'/>

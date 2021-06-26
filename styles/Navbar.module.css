@@ -64,6 +64,10 @@
   cursor: pointer;
 }
 
+.navLinks:hover {
+  border-bottom: 3px solid #01bf71;
+}
+
 @media screen and (max-width: 768px) {
   .burgerMenu {
     display: block;

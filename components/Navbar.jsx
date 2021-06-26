@@ -32,10 +32,10 @@ const Navbar = () => {
                     </div>
                     <div className={styles.socialMenu}>
                         <div className={styles.navItem}>
-                            <Link href='/'><a className={styles.navLinks}><FaGithub/></a></Link>
+                            <Link href='/' ><a href='https://github.com/cyberlord-007' target='_blank' className={styles.navLinks}><FaGithub/></a></Link>
                         </div>
                         <div className={styles.navItem}>
-                            <Link href='/'><a className={styles.navLinks}><FaLinkedin/></a></Link>
+                            <Link href='/'><a href='www.linkedin.com/in/akash-chaudhary-4b139a165' target='_blank' className={styles.navLinks}><FaLinkedin/></a></Link>
                         </div>  
                     </div>
                 </div>
