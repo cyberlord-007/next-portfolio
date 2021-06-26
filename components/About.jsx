@@ -20,9 +20,9 @@ const About = () => {
                              <p className={styles.description}>
                                  An avid learner of modern web and mobile app development technologies like the MERN Stack and Flutter,spending most of the time in learning something new everyday trying expand my knowledge pool to unimaginable lengths so that i can be a great fit for any suitable tech job.
                              </p>
-                             <div className={styles.heroButton}>
+                             <a href='/Akash_Chaudhary.pdf' download className={styles.heroButton}>
                                  <span>Resume</span>
-                             </div>
+                             </a>
                          </div>
                      </div>
                      <div className={styles.column2}>
