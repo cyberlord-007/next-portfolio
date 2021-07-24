@@ -1,58 +1,156 @@
-import React from 'react'
+import React,{useState} from 'react'
 import styles from '../styles/Skills.module.css'
-import {FaReact,FaHtml5,FaCss3Alt,FaJsSquare,FaNodeJs,FaGitAlt} from 'react-icons/fa'
+import {FaLaptopCode,FaTools,FaCodeBranch,FaReact,FaMobileAlt} from 'react-icons/fa'
+import {DiNodejsSmall,DiMongodb,DiMysql} from 'react-icons/di'
+import {SiRedux,SiNextDotJs,SiMaterialUi,SiSwagger,SiFlutter, SiFirebase, SiDart, SiAndroidstudio, SiGit, SiGithub, SiBitbucket, SiJira} from 'react-icons/si'
 
 const Skills = () => {
+
+    
+
     return (
         <>
             <div className={styles.skillsContainer} id='skills'>
                 <div className={styles.skillsWrapper}>
-                    <div className={styles.col1}>
-                        <h1 className={styles.skillsHeading}>
-                            MY SKILLS
-                        </h1>
-                        <div className={styles.logoWrapper}>
-                            <img className={styles.skillsLogo} src="/images/skills.png" alt="" />
-                        </div>
+                    <div className={styles.skillsHeading}>
+                        <h1>MY SKILLS</h1>
                     </div>
-                    <div className={styles.col2}>
-                        <div className={styles.skillsGrid}>
-                            <div className={styles.gridish}>
-                                <div className={styles.skillIcons}>
-                                    <FaReact color='#5ED3F3' size='100px'/> 
+                    <div className={styles.skillsGrid}>
+                        <div className={styles.gridish}>
+                            <div className={styles.skillsCard}>
+                                <div className={styles.cardTop}>
+                                    <FaLaptopCode size='100px' color='#01bf71' />
                                 </div>
-                                <div className={styles.skillIcons}>
-                                    <FaHtml5 color='#DD4B25' size='100px'/>
+                                <div className={styles.cardContent}>
+                                    <div className={styles.titleRow}>
+                                            Frameworks
+                                    </div>
+                                    <div className={styles.cardRow}>
+                                        <p>
+                                            ReactJS
+                                        </p>
+                                        <FaReact /> 
+                                    </div>
+                                    <div className={styles.cardRow}>
+                                        <p>
+                                            Redux
+                                        </p>
+                                        <SiRedux />
+                                    </div>
+                                    <div className={styles.cardRow}>
+                                        <p>
+                                            NextJS
+                                        </p>
+                                        <SiNextDotJs /> 
+                                    </div>
+                                    <div className={styles.cardRow}>
+                                        <p>
+                                            Material UI
+                                        </p>
+                                        <SiMaterialUi /> 
+                                    </div>
                                 </div>
-                                <div className={styles.skillIcons}>
-                                    <FaCss3Alt color='#016DB4' size='100px'/>
+                            </div>
+                            <div className={styles.skillsCard}>
+                                <div className={styles.cardTop}>
+                                    <FaTools size='100px' color='#01bf71' />
                                 </div>
-                                <div className={styles.skillIcons}>
-                                    <FaJsSquare color='#EFD81D' size='100px'/>
+                                <div className={styles.cardContent}>
+                                    <div className={styles.titleRow}>
+                                            Backend Tools
+                                    </div>
+                                    <div className={styles.cardRow}>
+                                        <p>
+                                            NodeJS
+                                        </p>
+                                        <DiNodejsSmall /> 
+                                    </div>
+                                    <div className={styles.cardRow}>
+                                        <p>
+                                            MongoDB
+                                        </p>
+                                        <DiMongodb /> 
+                                    </div>
+                                    <div className={styles.cardRow}>
+                                        <p>
+                                            MySQL
+                                        </p>
+                                        <DiMysql /> 
+                                    </div>
+                                    <div className={styles.cardRow}>
+                                        <p>
+                                            SwaggerHub
+                                        </p>
+                                        <SiSwagger /> 
+                                    </div>
                                 </div>
-                                <div className={styles.skillIcons}>
-                                    <FaNodeJs color='#6D9E68' size='100px'/>
+                            </div>
+                            <div className={styles.skillsCard}>
+                                <div className={styles.cardTop}>
+                                    <FaMobileAlt size='100px' color='#01bf71' />
                                 </div>
-                                <div className={styles.skillIcons}>
-                                    <img className={styles.skillImg} src="/images/fastify.png" alt="flutter" />    
+                                <div className={styles.cardContent}>
+                                    <div className={styles.titleRow}>
+                                            Mobile App Development
+                                    </div>
+                                    <div className={styles.cardRow}>
+                                        <p>
+                                            Flutter
+                                        </p>
+                                        <SiFlutter /> 
+                                    </div>
+                                    <div className={styles.cardRow}>
+                                        <p>
+                                            Dart
+                                        </p>
+                                        <SiDart /> 
+                                    </div>
+                                    <div className={styles.cardRow}>
+                                        <p>
+                                            Firebase
+                                        </p>
+                                        <SiFirebase /> 
+                                    </div>
+                                    <div className={styles.cardRow}>
+                                        <p>
+                                            Android Studio
+                                        </p>
+                                        <SiAndroidstudio /> 
+                                    </div>
                                 </div>
-                                <div className={styles.skillIcons}>
-                                    <img className={styles.skillImg} src="/images/flutter.png" alt="flutter" />    
+                            </div>
+                            <div className={styles.skillsCard}>
+                                <div className={styles.cardTop}>
+                                    <FaCodeBranch size='100px' color='#01bf71' />
                                 </div>
-                                <div className={styles.skillIcons}>
-                                    <img className={styles.skillImg} src="/images/firebase.png" alt="flutter" />    
-                                </div>
-                                <div className={styles.skillIcons}>
-                                    <img className={styles.skillImg} src="/images/next.png" alt="flutter" />    
-                                </div>
-                                <div className={styles.skillIcons}>
-                                    <FaGitAlt color='#DD4B25' size='100px'/>
-                                </div>
-                                <div className={styles.skillIcons}>
-                                    <img className={styles.skillImg} src="/images/swagger.png" alt="flutter" />    
-                                </div>
-                                <div className={styles.skillIcons}>
-                                    <img className={styles.skillImg} src="/images/docker.png" alt="flutter" />    
+                                <div className={styles.cardContent}>
+                                    <div className={styles.titleRow}>
+                                            Version Control
+                                    </div>
+                                    <div className={styles.cardRow}>
+                                        <p>
+                                            Git
+                                        </p>
+                                        <SiGit /> 
+                                    </div>
+                                    <div className={styles.cardRow}>
+                                        <p>
+                                            Github
+                                        </p>
+                                        <SiGithub /> 
+                                    </div>
+                                    <div className={styles.cardRow}>
+                                        <p>
+                                            Bitbucket
+                                        </p>
+                                        <SiBitbucket /> 
+                                    </div>
+                                    <div className={styles.cardRow}>
+                                        <p>
+                                            Jira
+                                        </p>
+                                        <SiJira /> 
+                                    </div>
                                 </div>
                             </div>
                         </div>

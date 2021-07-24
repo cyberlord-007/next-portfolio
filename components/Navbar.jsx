@@ -1,12 +1,35 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import styles from '../styles/Navbar.module.css'
 import {FaArtstation,FaBars,FaGithub,FaLinkedin,FaInbox} from 'react-icons/fa'
 import Link from 'next/link'
 
 const Navbar = () => {
+   
+    let listener = null
+    const [scrollState, setScrollState] = useState("top")
+
+
+    useEffect(() => {
+        listener = document.addEventListener("scroll", e => {
+        var scrolled = document.scrollingElement.scrollTop
+        if (scrolled >= 120) {
+            if (scrollState !== "scrolled") {
+            setScrollState("scrolled")
+            }
+        } else {
+            if (scrollState !== "top") {
+            setScrollState("top")
+            }
+        }
+        })
+        return () => {
+        document.removeEventListener("scroll", listener)
+        }
+    }, [scrollState])
+
     return (
         <>
-            <nav className={styles.nav}>
+            <nav className={styles.nav} style={{background: scrollState === 'top' ? 'transparent' : '#000'}}>
                 <div className={styles.navWrapper}>
                     <div className={styles.navLogo}><FaArtstation/>kash</div>
                     <div className={styles.burgerMenu}><FaBars/></div>
