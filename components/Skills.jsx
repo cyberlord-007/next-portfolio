@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import styles from '../styles/Skills.module.css'
 import {FaLaptopCode,FaTools,FaCodeBranch,FaReact,FaMobileAlt} from 'react-icons/fa'
 import {DiNodejsSmall,DiMongodb,DiMysql} from 'react-icons/di'
