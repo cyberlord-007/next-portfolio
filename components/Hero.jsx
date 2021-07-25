@@ -14,9 +14,9 @@ const Hero = () => {
                <div className={styles.heroContent}>
                    <h1 className={styles.heroH1}>Hi, I'm Akash...</h1>
                    <p className={styles.heroP}>Programmer | Developer | Public Speaker | A Man Of Literature</p>
-                   <div className={styles.heroButton}>
-                       Learn More   
-                   </div>
+                   <a href='https://cyberlord007.hashnode.dev/' target='_blank' className={styles.heroButton}>
+                       <b>My Blog</b>  
+                   </a>
                </div>
            </div> 
         </>
