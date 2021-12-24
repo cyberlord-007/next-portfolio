@@ -2,7 +2,7 @@ export const Works = [
   {
     id: 1,
     role: 'Software Engineer Intern',
-    company: 'ReapIt Inc.',
+    company: 'ForkLyft',
     companyURL: 'https://www.reapit.in/',
     duration: 'May 2021 - Present',
     description:
