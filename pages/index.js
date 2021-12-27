@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import Skills from '../components/Skills'
 import Work from '../components/Work'
 import Projects from '../components/Projects'
+import Contact from '../components/Contact'
 import Head from 'next/head'
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
         <Skills/>
         <Work />
         <Projects />
+        <Contact />
       </Layout>
     </div>
   )
