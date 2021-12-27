@@ -27,8 +27,8 @@ export default function Home() {
         <Hero/>
         <About/>
         <Skills/>
-        <Projects />
         <Work />
+        <Projects />
       </Layout>
     </div>
   )

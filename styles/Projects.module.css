@@ -136,13 +136,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 24px;
-  margin-top: 12px;
-  padding: 0.5rem 0;
+  border-radius: 1.5rem;
   text-align: center;
   width: 150px;
   height: 45px;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 600;
   background: #1faa00;
   color: #fff;
@@ -164,23 +162,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 24px;
-  margin-top: 12px;
-  padding: 0.5rem 0;
+  border-radius: 1.5rem;
+ 
   text-align: center;
   width: 150px;
   height: 45px;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 600;
   background: #fff;
   color: #1faa00;
   cursor: pointer;
+  border: 2px solid #1faa00;
 }
 
 .codeButton:hover {
   background: #1faa00;
   color: #fff;
-  border: 2px solid #fff;
+  
 }
 
 .codeButton span {
@@ -188,6 +186,11 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .projectsWrapper {
+    padding: 24px;
+  }
+
   .projectsCard {
     flex-direction: column;
     height: 100%;
@@ -198,7 +201,7 @@
     font-size: 1rem;
   }
 
-  .cardTitle h1{
+  .cardTitle h1 {
     margin: 0;
   }
 
@@ -230,5 +233,19 @@
 
   .cardBody {
     font-size: 16px;
+  }
+
+  .cardActions {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    margin-top: 12px;
+    justify-content: center;
+  }
+
+  .viewButton,.codeButton{
+    font-size: 14px;
+    width: 120px;
+    height: 40px;
   }
 }

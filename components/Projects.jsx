@@ -8,7 +8,7 @@ const Projects = () => {
       <div className={styles.projectsContainer} id='projects'>
         <div className={styles.projectsWrapper}>
           <div className={styles.projectsHeading}>
-            <h1>MY PROJECTS</h1>
+            <h1>MY WORK</h1>
           </div>
           <div className={styles.projectsCol}>
             <div className={styles.projectsCard}>
@@ -50,7 +50,7 @@ const Projects = () => {
               </div>
               <div className={styles.cardRight}>
                 <div className={styles.cardTitle}>
-                  <h1>GKeep(Task Manager)</h1>
+                  <h1>GKeep</h1>
                 </div>
                 <div className={styles.TechRow}>
                   <p>React</p>
