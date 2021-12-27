@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/Projects.module.css';
-import {FaEye,FaCode} from 'react-icons/fa'
+import { FaEye, FaCode } from 'react-icons/fa';
 
 const Projects = () => {
   return (
@@ -31,16 +31,22 @@ const Projects = () => {
                   COVID statistics.
                 </div>
                 <div className={styles.cardActions}>
-                  <div className={styles.viewButton}>
+                  <a
+                    className={styles.viewButton}
+                    href='https://github.com/cyberlord-007/Corona-Meter-App'
+                    target='_blank'
+                  >
                     <FaEye />
                     <span>VIEW</span>
-                  </div>
-                  <div className={styles.codeButton}>
+                  </a>
+                  <a
+                    className={styles.codeButton}
+                    href='https://github.com/cyberlord-007/Corona-Meter-App'
+                    target='_blank'
+                  >
                     <FaCode />
-                    <span>
-                      CODE
-                    </span>
-                  </div>
+                    <span>CODE</span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -64,16 +70,22 @@ const Projects = () => {
                   COVID statistics.
                 </div>
                 <div className={styles.cardActions}>
-                  <div className={styles.viewButton}>
+                  <a
+                    className={styles.viewButton}
+                    href='https://gkeep-624d0.web.app/'
+                    target='_blank'
+                  >
                     <FaEye />
                     <span>VIEW</span>
-                  </div>
-                  <div className={styles.codeButton}>
+                  </a>
+                  <a
+                    className={styles.codeButton}
+                    href='https://github.com/cyberlord-007/gkeep'
+                    target='_blank'
+                  >
                     <FaCode />
-                    <span>
-                      CODE
-                    </span>
-                  </div>
+                    <span>CODE</span>
+                  </a>
                 </div>
               </div>
             </div>

@@ -83,7 +83,7 @@ const Navbar = () => {
               </Link>
             </div>
             <div className={styles.navItem}>
-              <Link href='/'>
+              <Link href='/#contact'>
                 <a className={styles.navLinks}>Contact Me</a>
               </Link>
             </div>
@@ -142,7 +142,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div className={styles.mobMenuItem}>
-            <Link href='/'>
+            <Link href='/#contact'>
               <a className={styles.mobMenuLinks}>Contact Me</a>
             </Link>
           </div>
