@@ -1,10 +1,19 @@
 export const Works = [
   {
+    id: 0,
+    role: 'Trainee Associate - Technology',
+    company: 'NAV Fund Administration Group',
+    companyURL: 'https://www.navconsulting.net/',
+    duration: 'Feb 2022 - Present',
+    description:
+      'Working on an in house master data management tool, ﬁxing bugs and creating new features with React and ASP. NET Core. Build a consolidated hierarchical view for ﬂexible user experience using libraries like Highcharts and React Flow.',
+  },
+  {
     id: 1,
     role: 'Software Engineer Intern',
     company: 'ForkLyft',
     companyURL: 'https://www.reapit.in/',
-    duration: 'May 2021 - Present',
+    duration: 'May 2021 - Jan 2022',
     description:
       'Working as a software developer,mainly on web apps using React as a primary tool. Completed the frontend for an ecommerce store named OG BRANDS,and working on inventory system backend and an interface to know Water Qualit Index of a location,for Water Purifier Company named DrinkPrime.',
   },

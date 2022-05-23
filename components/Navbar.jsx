@@ -103,7 +103,7 @@ const Navbar = () => {
             <div className={styles.navItem}>
               <Link href='/'>
                 <a
-                  href='www.linkedin.com/in/akash-chaudhary-4b139a165'
+                  href='https://www.linkedin.com/in/cyberlord007/'
                   target='_blank'
                   className={styles.navLinks}
                 >

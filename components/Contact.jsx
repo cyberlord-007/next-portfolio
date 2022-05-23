@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from '../styles/Contact.module.css';
 import {
-  FaEnvelope,
   FaFacebookSquare,
   FaLinkedin,
   FaInstagram,
 } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
+
 
 const Contact = () => {
   return (
@@ -30,7 +30,7 @@ const Contact = () => {
             <div className={styles.infoRow}>
               <a
                 className={styles.socialIcons}
-                href='mailto:akashfzd2000@gmail.com'
+                href='mailto:akash.hireme@outlook.com'
               >
                 <SiGmail size='45' color='#EA4335' />
               </a>

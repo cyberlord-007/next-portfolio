@@ -15,7 +15,7 @@ const About = () => {
                                  About Me
                              </p>
                              <h1 className={styles.heading}>
-                                 Undergrad at MNIT Jaipur
+                                 Frontend Engineer | React
                              </h1>
                              <p className={styles.description}>
                                  An avid learner of modern web and mobile app development technologies like the MERN Stack and Flutter,spending most of the time in learning something new everyday trying expand my knowledge pool to unimaginable lengths so that i can be a great fit for any suitable tech job.
