@@ -1,10 +1,19 @@
 export const Works = [
   {
+    id: -1,
+    role: 'SDE I - Frontend',
+    company: 'Airmeet',
+    companyURL: 'https://www.airmeet.com',
+    duration: 'July 2022 - Present',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, eius neque aliquid laboriosam minima iusto voluptatibus quidem necessitatibus alias nesciunt nemo.',
+  },
+  {
     id: 0,
-    role: 'Trainee Associate - Technology',
-    company: 'NAV Fund Administration Group',
+    role: 'SDE Intern',
+    company: 'NAV Consulting',
     companyURL: 'https://www.navconsulting.net/',
-    duration: 'Feb 2022 - Present',
+    duration: 'Feb 2022 - June 2022',
     description:
       'Working on an in house master data management tool, ﬁxing bugs and creating new features with React and ASP. NET Core. Build a consolidated hierarchical view for ﬂexible user experience using libraries like Highcharts and React Flow.',
   },
