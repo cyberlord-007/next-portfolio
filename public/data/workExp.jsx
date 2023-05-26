@@ -6,7 +6,7 @@ export const Works = [
     companyURL: 'https://www.airmeet.com',
     duration: 'July 2022 - Present',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, eius neque aliquid laboriosam minima iusto voluptatibus quidem necessitatibus alias nesciunt nemo.',
+      'Working with great engineering folks to build a scalable and one stop solution for immersive virtual events experience, using technologies like ReactJs, Firebase, Springboot and AWS.',
   },
   {
     id: 0,
